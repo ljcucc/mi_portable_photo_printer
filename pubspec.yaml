@@ -1,0 +1,13 @@
+name: mi_printer
+description: >-
+  Dart implementation of the Xiaomi Mi Portable Photo Printer
+  (hannto.printer.basil) protocol: 0x7E frames, mijia RC4 cipher,
+  JSON-RPC over Bluetooth RFCOMM, and the 1040x1560 JPEG print pipeline.
+version: 0.1.0
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  image: ^4.2.0
+dev_dependencies:
+  test: ^1.25.0
+  lints: ^4.0.0

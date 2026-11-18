@@ -1,0 +1,32 @@
+# 內部文件與代理規則
+internal-*/
+AGENTS.md
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/flutter_export_environment.sh
+**/generated_plugin_registrant.dart
+
+# Android
+.gradle/
+local.properties
+key.properties
+*.jks
+*.keystore
+.cxx/
+
+# 發行產物（改由 GitHub Releases 提供）
+dist/
+*.apk
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store

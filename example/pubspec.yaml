@@ -1,0 +1,15 @@
+name: mi_printer_example
+description: Example app that prints to the Mi Portable Photo Printer over Bluetooth.
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  mi_printer:
+    path: ../
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.0
+flutter:
+  uses-material-design: true
